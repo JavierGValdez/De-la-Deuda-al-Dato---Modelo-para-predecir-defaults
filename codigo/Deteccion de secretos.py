@@ -7,6 +7,7 @@ files = [
     root / "entregable2.ipynb",
 ]
 
+# ...existing code...
 PATTERNS = {
     "ghp_": re.compile(r"(ghp_)[A-Za-z0-9]{36}"),
     "github_pat_": re.compile(r"(github_pat_)[A-Za-z0-9_]{82,}"),
@@ -14,8 +15,11 @@ PATTERNS = {
     "AKIA": re.compile(r"(AKIA)[0-9A-Z]{16}"),
     "AIza": re.compile(r"(AIza)[0-9A-Za-z\-_]{35}"),
     "PKHDR": re.compile(r"-----BEGIN (?:RSA|EC|DSA|OPENSSH|PRIVATE) KEY-----"),
-    "SSH": re.compile(r"ssh-rsa\s+[A-Za-z0-9+/=]{100,}")
+    "SSH": re.compile(r"ssh-rsa\s+[A-Za-z0-9+/=]{100,}"),
+    # Tencent Cloud SecretId
+    "TENCENT_AKID": re.compile(r"(AKID)[0-9A-Za-z]{32}")
 }
+# ...existing code...
 
 def redact_text(s: str) -> str:
     for name, rx in PATTERNS.items():
