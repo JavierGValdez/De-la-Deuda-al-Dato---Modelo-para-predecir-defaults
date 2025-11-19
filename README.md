@@ -1,7 +1,7 @@
 ﻿# 💳 De la Deuda al Dato: ML para Predecir Defaults
 Modelo predictivo a partir de datos de clientes de una entidad crediticia dentro del contexto de una crisis en Taiwán (año 2005) bajo el marco del <u><strong>Trabajo Práctico Final</strong></u>
 
-# Contexto 
+# 📚​ Contexto 
 En 2005, Taiwán enfrentó una crisis crediticia que expuso la necesidad crítica de detectar tempranamente los impagos por parte de los clientes de los bancos. Las causas pueden deberse
 a que el cliente no puede afrontar las condiciones necesarias de pago por la coyuntura económica del país en ese entonces, o por la deficiente identificación a la hora de evaluar potenciales clientes.
 
@@ -22,12 +22,12 @@ Teniendo en cuenta que el no identificar un deudor correctamente es más costoso
 
 
 # 📁 Estructura del Proyecto
-├── 📓 notebooks/          # Análisis exploratorio y modelos
-├── 📊 data/              # Dataset original y procesado
-├── 🎨 visualizations/    # Gráficos y matriz de confusión
-└── 📋 docs/              # Presentación y documentación
+- ├── 📓 notebooks/          # Análisis exploratorio y modelos
+- ├── 📊 data/              # Dataset original y procesado
+- ├── 🎨 visualizations/    # Gráficos y matriz de confusión
+- └── 📋 docs/              # Presentación y documentación
 
-# Datos utilizados
+# 📩​ Datos utilizados
 Los datos provienen desde UCI Irvine Machine Learning Repository. La recolección fue hecha por los autores (Yeh y Lien, 2009) con el objetivo de evaluar la precisión predictiva de la probabilidad de default a través de distintos métodos de minería de datos.
 
 Este conjunto contiene observaciones acerca del pago de clientes de un banco Taiwanés en el año 2005, incluyendo variables demográficas (género, estado civil, edad, nivel educativo), variables categóricas que describen el estado de pago de un mes dado para el periodo Abril- Septiembre y variables numéricas que describen tanto el monto de la factura a pagar como el pago realizado por la persona en dicho mes.
@@ -35,8 +35,9 @@ También se incluye la línea de crédito de la persona y un estado binario para
 
 # 👥 Equipo
 
-Javier Gonzalo Valdez - jgvaldez@unsam-bue.edu.ar
-Bruno Inguanzo - brunoinguanzo14@gmail.com
-Matías Alejandro Vergara Vicencio - mavergaravicencio@estudiantes.unsam.edu.ar
+- Javier Gonzalo Valdez - jgvaldez@unsam-bue.edu.ar
+- Bruno Inguanzo - brunoinguanzo14@gmail.com
+- Matías Alejandro Vergara Vicencio - mavergaravicencio@estudiantes.unsam.edu.ar
+
 
 
